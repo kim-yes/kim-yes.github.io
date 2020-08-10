@@ -5,111 +5,258 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <title>KIM YESUNG</title>
     <link rel="shortcut icon" type="image/x-icon" href="asset/image/favicon.ico"/>
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+          $(document).ready(function(){
+             $("#about-text").load("about-text.html")
+          });
+    </script>
   </head>
 
 <body>
+  <!--AOS script-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+  </script>
 
-<div class="wrap">
-  <div class="title">
-    <h1>
-      <section id="title">
-        <img src="asset/image/profile.png"/ style="height: 1.5rem; width: auto;"> KIM YESUNG
-    </h1>
-    <h3>
-        IT 서비스 기획자입니다.<br>
-        일본 현지에 라이브 서비스되는 <h-e>네이티브 모바일 게임</h-e> 어플리케이션을 <h-e>지표 중심</h-e>으로 기획하고 운영합니다. 분석을 토대로 서비스의 문제점을 도출하고 실행력 있게 해결해 가는 <h-e>논리 주도형</h-e> 기획자입니다.<br>
-        <h-e>일본 시장</h-e>에서의 비즈니스 능력이 뛰어나며, <h-e>콘텐츠</h-e>와 <h-e>서브컬처</h-e>에 대한 감각을 갖추고 있습니다.<br>
-        <br>
-        장래 희망은 자유인(自由人)입니다.<br>
-        <p>
-    </h3>
-  </div>
+  <script>
+    AOS.init();
+  </script>
 
-  <div class="menu">
-    <h4>
-      <li><a href="#experience"><b>Experience </b></a></li>
-      <li><a href="#education"><b>Education </b></a></li>
-      <li><a href="#skills"><b>Skills </b></a></li>
-      <li><a href="#contact"><b>Contact </b></a></li>
-      <p>
-    </h4>
-  </div>
 
-  <hr style="border: dashed 1px #333333;">
-
-  <div class="page">
-    <h2>
-      <section id="experience">
-        <b>Experience</b><p>
-        Game designer / Product manager<br>
-        Work at KLab Inc. since 2017~<br>
-    <h3>
-        카드 수집형 모바일 게임<br>
-        기획 리더<br>
-        기획의 전 분야 및 데이터 관리, 운영 경험 있음<br>
-        이용 유저 수(UU) 20만 이벤트 제작<br>
-        월 목표 매출 250% 이상 상향 달성<br>
-        MAU 50만 이상, App Store 매출 30위 이상<br>
-        <br>
-    </h3>
-        <p>
-
-      <section id="education">
-        <b>Education</b><p>
-        Bachelor of Psychology (Sungkyunkwan University)<br>
-      <h3>
-        성균관대학교 심리학과 졸업, 글로벌지역전문가(일본) 활동<br>
-        성균관대학교 점자봉사단 활동<br>
-        2011 서울시 동행프로젝트 교육 멘토<br>
-        2013 한국저작권위원회 저작권문화학교 예비전문인재 육성 과정 수료<br>
-        2014 JAL Scholaship Program 한국 대표<br>
-        2016 CJ Donors Camp 대학생 멘토<br>
-        <br>
-      </h3>
-        <p>
-
-      <section id="skills">
-        <b>Skills</b><p>
-        Languages<br>
-        - Korean(Native)<br>
-        - Japanese(Business)<br>
-        - English(Business)<br>
-        <p>
-        Tools<br>
-        - Microsoft Office(Excel, Powerpoint, Word)<br>
-        - Google Docs(Spreadsheet, Slides, Documents)<br>
-        - Adobe Photoshop<br>
-        <p>
-        Management applets<br>
-        - Using tools like Backlog, Slack, Github, and so on<br>
-        <p>
-        Now broaden my knowledge of programming<br>
-        - Python, Unity, CSS<br>
-      <h3>
-        높은 수준의 언어 능력을 통한 커뮤니케이션<br>
-        각종 오피스 툴 사용 가능, 특히 스프레드시트(엑셀) 최상급<br>
-        발표, 퍼실리테이션, 조율 능력<br>
-        개발 언어에 대한 기본적 이해, 심화 배움<br>
-        <br>
-      </h3>
-        <p>
-
-      <section id="contact">
-        <b>Contact</b><p>
-        <i class="far fa-envelope"></i><a href="mailto:kim.yes.com@gmail.com"> kim.yes.com@gmail.com</a><br>
-        <i class="far fa-comments"></i><a href="http://pf.kakao.com/_RaxgRK"> 카카오톡 채널(@kim-yes)</a><br>
-        <br>
-        <p>
-
-      <div class="upto">
-        <a href="#title"><i class="fas fa-arrow-up"></i></a>
+  <!--top-->
+  <div class="top-image2">
+    <div class="top-container">
+      <div class="top-title" data-aos="fade-up" data-aos-duration="1000">
+        KIM YESUNG
       </div>
-    </h2>
+      <div class="top-subtitle" data-aos="zoom-in-up" data-aos-duration="1000">
+        PRODUCT MANAGER / GAME DESIGNER
+      </div>
+    </div>
+  </div>
+
+  <!--about-->
+  <div class="about">
+    <section id="about">
+      <div class="about-container">
+        <div class="about-title" data-aos="fade-up" data-aos-duration="1000">
+          ABOUT<br>
+        </div>
+        <div class="about-text" data-aos="fade-up" data-aos-duration="1500">
+          IT 서비스 기획자입니다.<br>
+          일본 현지에 라이브 서비스되는 네이티브 모바일 게임 어플리케이션을 지표 중심으로 기획하고 운영합니다.<br>
+          분석을 토대로 서비스의 문제점을 도출하고 실행력 있게 해결해 가는 논리 주도형 기획자입니다.<br>
+          일본 시장에서의 비즈니스 능력이 뛰어나며, 콘텐츠와 서브컬처에 대한 감각을 갖추고 있습니다.<br>
+          <br>
+          장래 희망은 자유인(自由人)입니다.
+        </div>
+        <div class="about-liner" data-aos="fade-up" data-aos-duration="2000">
+
+          <!--2017-->
+          <div class="about-date" data-aos="fade-up" data-aos-duration="2100">
+            2017-
+
+          </div>
+          <div class="about-career" data-aos="fade-up" data-aos-duration="2500">
+            <div class="about-career-title">
+              KLab Inc.
+            </div>
+            <div class="about-career-text">
+              일본 서비스<br>
+              카드 수집형 모바일 게임 프로젝트(Unity)<br>
+              서브컬쳐, 미디어믹스 IP<br>
+              기획 리더<br>
+              이용 유저 수(UU) 20만 이벤트 제작<br>
+              월 목표 매출 250% 이상 상향 달성<br>
+              MAU 50만 이상, App Store 매출 30위 이상<br>
+              <br>
+              <div class="about-career-text-sub" data-aos="fade-up" data-aos-duration="2800">
+                논리적인 사고, 빠른 판단력을 강점 삼아 게임을 만들고 있습니다.<br>
+                주로 어플리케이션 내 기능과 흐름을 설계하는 일을 담당하는 일이 잦습니다.<br>
+                밸런스 조정, KPI 분석 보고서 작성 등 숫자와 논리를 논하는 일을 좋아합니다.<br>
+                <br>
+                업무에서는,<br>
+                '어떻게 하면 알기 쉬울까'<br>
+                '유저가 무엇을 기대할까'<br>
+                '이 과정은 유저에게 재미있을까' 등<br>
+                UX와 직접적으로 연관되는 부분을 중요하게 고민합니다.<br>
+                제가 생각한 것을 문자로 잘 표현하는 것도 꼼꼼하게 신경쓰고요.<br>
+                <br>
+                모바일 소셜 게임은 플레이어에게 쾌감을 주는 제품임과 동시에,<br>
+                그로 인해 소비를 유도하고 만족을 느끼게 하는 서비스라는 점을 잊지 않기 위해 노력합니다.<br>
+                <br>
+              </div>
+            </div>
+          </div>
+          <!--2017-->
+
+          <!--2011-->
+          <div class="about-date" data-aos="fade-up" data-aos-duration="2100">
+            2011-2016
+          </div>
+          <div class="about-career" data-aos="fade-up" data-aos-duration="2500">
+            <div class="about-career-title">
+              Sungkyunkwan University
+            </div>
+            <div class="about-career-text">
+              심리학과 졸업(Bachelor of Psychology)<br>
+              2016 CJ Donors Camp 대학생 멘토<br>
+              2015 성균관대학교 글로벌지역전문가(일본)<br>
+              2014 JAL Scholaship Program 한국 대표<br>
+              2013 한국저작권위원회 저작권문화학교 예비전문인재 육성 과정 수료<br>
+              2011 성균관대학교 점자봉사단<br>
+              2011 서울시 동행프로젝트 교육 멘토<br>
+              <br>
+              <div class="about-career-text-sub" data-aos="fade-up" data-aos-duration="2800">
+                좋아하던 수업은 사회심리학과 이상심리학이었습니다.<br>
+                국제 교류와 글로벌 문화, 교육 봉사활동에도 관심이 많았죠.<br>
+                바른 것, 옳은 것, 좋은 것이란 무엇인가 골몰히 생각하는 데 시간을 많이 보냈습니다.<br>
+                책 읽고 토론하는 것을 좋아해 문학 동아리 활동도 열심히 했고요.<br>
+                <br>
+                학원에서 보조 강사로 아르바이트를 했는데<br>
+                모은 돈으로는 혼자서 여행을 다니곤 했습니다.<br>
+                여행지의 카페에 앉아 사람을 구경하며 사색하는 것을 즐겼습니다.<br>
+                <br>
+              </div>
+            </div>
+          </div>
+          <!--2011-->
+
+          <!--Keywords-->
+          <div class="about-date" data-aos="fade-up" data-aos-duration="2100">
+            Keywords
+          </div>
+          <div class="about-career" data-aos="fade-up" data-aos-duration="2500">
+            <!--start-->
+            <div class="about-career-title">
+              Languages
+            </div>
+            <div class="about-career-text">
+              Korean(Native)<br>
+              Japanese(Business)<br>
+              English(Business)<br>
+              <br>
+            </div>
+            <!--end-->
+            <!--start-->
+            <div class="about-career-title">
+              Tools
+            </div>
+            <div class="about-career-text">
+              Microsoft Office<br>
+              Google Docs<br>
+              Adobe Photoshop<br>
+              <br>
+              <div class="about-career-text-sub" data-aos="fade-up" data-aos-duration="2800">
+                문서 작업, 이미지 작업을 위한 기본적인 툴을 능숙하게 다룰 수 있습니다.<br>
+                특히 엑셀/스프레드시트는 자신감 있게 사용할 수 있습니다.<br>
+                쉬는 날에는 구글 스프레드시트 함수를 공부하거나, 함수를 사용해 미니 게임을 만듭니다.<br>
+                처음에는 업무 중 필요해서 익힌 스킬이었는데, 이제는 개인 시간을 소비할 정도로 취미가 되었네요.<br>
+                <br>
+              </div>
+            </div>
+            <!--end-->
+            <!--start-->
+            <div class="about-career-title">
+              Management applets
+            </div>
+            <div class="about-career-text">
+              Backlog, Slack, Github, G Suite<br>
+              and so on<br>
+              <br>
+              <div class="about-career-text-sub" data-aos="fade-up" data-aos-duration="2800">
+                프로젝트 관리에 필요한 협업 툴을 사용합니다.<br>
+                특히 Git과 버전 관리를 이해하고 있어서 개발자들과의 커뮤니케이션에도 능한 편입니다.<br>
+                기획서도 Git으로 작성하고 있어요.<br>
+                <br>
+                커뮤니케이션을 잘하는 것도 중요하지만, 그걸 잘 기록하는 것도 중요하다고 느낍니다.<br>
+                그래서 로그를 신경 써서 남기는 성격입니다.<br>
+                <br>
+              </div>
+            </div>
+            <!--end-->
+            <!--start-->
+            <div class="about-career-title">
+              Self Improvement
+            </div>
+            <div class="about-career-text">
+              Python<br>
+              HTML/CSS<br>
+              Piano<br>
+              <br>
+              <div class="about-career-text-sub" data-aos="fade-up" data-aos-duration="2800">
+                무언가에 몰두해 시간을 보내는 걸 좋아합니다.<br>
+                최근에는 본격적인 프로그래밍 언어를 배워 보고 싶어져서 파이썬을 선택했습니다.<br>
+                초등학교 때 잠깐 배웠던 HTML과 CSS도 다시 건드려 보고 있고요.<br>
+                (이 웹사이트도 혼자서 뚝딱뚝딱 만들었습니다.)<br>
+                <br>
+                어른이 되어 새로 시작한 취미는 피아노 연주입니다.<br>
+                배운 적이 없어 갈 길이 멀지만 '연습하면 된다'는 걸 가장 잘 느낄 수 있는 취미라서 만족도가 높습니다.<br>
+                <br>
+              </div>
+            </div>
+            <!--end-->
+          </div>
+          <!--Keywords-->
+
+        </div>
+        <br>
+      </div>
   </div>
 
 
-</div>
+  <!--article-->
+  <div class="article">
+    <section id="article">
+      <div class="article-comming" data-aos="fade-up" data-aos-duration="1000">
+        <font size=15vmin>ARTICLE</font><br>
+        <br>
+        <i class="fas fa-spinner"></i> Comming Soon
+      </div>
+  </div>
+
+  <!--scroll-->
+  <div class="scroll">
+    scroll
+  </div>
+
+  <!--contact-->
+  <div class="contact">
+    <section id="contact">
+      <div class="contact-container">
+        <div class="contact-title" data-aos="fade-up" data-aos-duration="1000">
+          E-MAIL<br>
+        </div>
+        <div class="contact-text" data-aos="fade-up" data-aos-duration="1200">
+          <a href="mailto:kim.yes.com@gmail.com">kim.yes.com@gmail.com</a><br>
+        </div>
+        <br>
+        <div class="contact-title" data-aos="fade-up" data-aos-duration="1500">
+          KAKAO TALK CHANNEL<br>
+        </div>
+        <div class="contact-text" data-aos="fade-up" data-aos-duration="1700">
+          <a href="http://pf.kakao.com/_RaxgRK">@kim-yes</a><br>
+        </div>
+      </div>
+      <div class="thanks">
+        Thank you!
+      </div>
+  </div>
+
+  <!--menu-->
+  <div class="menu">
+    <li data-aos="flip-right" data-aos-duration="1000"><a href="#">TOP</a></li>
+    <li data-aos="flip-right" data-aos-duration="1500"><a href="#about">ABOUT</a></li>
+    <li data-aos="flip-right" data-aos-duration="2000"><a href="#article">ARTICLE</a></li>
+    <li data-aos="flip-right" data-aos-duration="2500"><a href="#contact">CONTACT</a></li>
+  </div>
+
+
+
+
+
 </body>
 
 </html>
