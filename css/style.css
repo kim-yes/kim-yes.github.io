@@ -181,13 +181,21 @@ body {
 .contact-container {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 30%;
   transform: translate(-50%, -50%);
   width: 80%;
   min-width: 340px;
 }
 
 .contact-title {
+  position: relative;
+  font-size: 15vmin;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.contact-subtitle {
   font-family: 'Lexend Zetta', sans-serif;
   font-weight: 200;
   color: #ffffff;
